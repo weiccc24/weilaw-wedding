@@ -20,7 +20,7 @@ As our wedding planning evolves, so will this project. We plan to add more funct
 - Seating arrangements
 - Meal preference tracking
 - RSVP management
-- [Any other ideas you have]
+- Host my website via GitHub Pages (https://pages.github.com)
 
 ### 💻 Tech Stack
 
