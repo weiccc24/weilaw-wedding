@@ -112,14 +112,21 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* 圖片置中 */
+    gap: 20px; /* Adds space between images*/
 }
 
 .photo-gallery img {
     max-width: 100%;
     height: auto;
-    margin: 0.5rem;
-    border: 10px solid #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    object-fit: cover; /* This ensure the image covers the area without distortion */
+}
+
+/* For screens wider than 768px, set a specific width for images */
+@media (min-width: 768px) {
+    .photo-gallery img {
+        width: calc(50% - 10px); /* 50% width minus half of the gap */
+        max-width: 360px; /* Or any other max-width you prefer */
+    }
 }
 
 /* CTA button styles */
@@ -138,3 +145,4 @@ h2 {
 
 .cta-button:hover {
     background-color: #fff
+}
