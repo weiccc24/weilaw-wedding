@@ -1,38 +1,56 @@
-# Wei and Lawrence's Wedding Planner
+# Lawrence & Wei's Wedding Website
 
-## 🎉 Welcome to Our Wedding Database Project! 🎉
+This repository contains the code for Lawrence and Wei's wedding website. The site is designed to provide information about their upcoming wedding and allow guests to RSVP.
 
-This repository is dedicated to the joyous occasion of Wei and Lawrence's wedding. We're leveraging the power of SQL and data management to streamline our wedding planning process and create a truly memorable experience for us and our guests.
+## Features
 
-### 🗃️ About This Project
+1. **Navigation**: Easy navigation through different sections of the website.
+2. **Welcome Section**: Displays the wedding date and venue information.
+3. **Countdown Timer**: A dynamic countdown to the wedding day.
+4. **Our Story**: A section dedicated to the couple's story.
+5. **Photo Gallery**: Showcases pre-wedding photos of the couple.
+6. **RSVP**: A link to the RSVP form for guests.
 
-At the heart of this project is a SQL database containing our cherished guest list. But it's more than just a list - it's a springboard for creating useful functions to assist in various aspects of our wedding planning.
+## Sections
 
-### 🚀 Current Features
+- **Home**: Welcome message and key wedding details.
+- **Our Story**: Background on the couple's journey.
+- **Photos**: Pre-wedding photo gallery.
+- **RSVP**: Link to the RSVP form.
 
-- SQL database structure for managing our guest list
-- [List any specific functions you've already implemented]
+## Technical Details
 
-### 🔮 Future Plans
+- **Language**: HTML5, CSS3, JavaScript
+- **Responsive Design**: The website is designed to be responsive and work on various screen sizes.
+- **External Resources**:
+  - Google Forms (for RSVP)
+  - Custom JavaScript for countdown functionality
 
-As our wedding planning evolves, so will this project. We plan to add more functions and features to help us with:
+## File Structure
 
-- Seating arrangements
-- Meal preference tracking
-- RSVP management
-- Host my website via GitHub Pages (https://pages.github.com)
+- `index.html`: Main HTML file
+- `styles.css`: CSS styles for the website
+- `script.js`: General JavaScript file
+- `countdown.js`: JavaScript for the countdown timer
+- `images/`: Directory containing website images
 
-### 💻 Tech Stack
+## Setup
 
-- SQL (Primary database language)
-- [Any other technologies you're using or planning to use]
+1. Clone the repository
+2. Open `index.html` in a web browser to view the website locally
 
-### 👩‍💻 Contribution
+## Customization
 
-While this is a personal project for our wedding, we're always open to ideas and suggestions. Feel free to open an issue if you have any brilliant wedding-tech ideas!
+To customize this website:
+1. Update the content in `index.html`
+2. Modify styles in `styles.css`
+3. Adjust the countdown date in `countdown.js`
+4. Replace images in the `images/` directory with your own
 
-### 💖 A Note from the Couple
+## Deployment
 
-We're excited to combine our love story with our passion for technology. This project represents not just our wedding planning, but also our journey in creating something unique and personal for our special day.
+The website can be deployed to any web hosting service that supports static websites.
 
-Stay tuned as we continue to update and expand this project on our way to saying "I do"!
+## License
+
+© 2024 Lawrence & Wei. All rights reserved.
