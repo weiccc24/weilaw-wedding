@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Georgia', Arial, sans-serif;
     line-height: 1.6;
     color: #333;
     background-color: #fff;
@@ -15,7 +15,7 @@ body {
     background-attachment: fixed;
     background-size: cover; /* Ensures the background image covers the entire area */
     background-position: center; /* Centers the background image */
-
+}
 /* Header styles */
 header {
     padding: 2rem 0;
