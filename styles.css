@@ -56,7 +56,7 @@ nav ul li a:hover {
 main {
     max-width: 800px;
     margin: 0 auto;
-    padding: 2rem 1rem;
+    padding-bottom: 20px;
 }
 
 section {
@@ -68,6 +68,10 @@ h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
     font-weight: 300;
+}
+
+p {
+    padding-bottom: 20px;
 }
 
 .image-container {
@@ -123,7 +127,7 @@ h2 {
 }
 
 .cta-button:hover {
-    background-color: #555;
+    background-color: #b1a597;
 }
 
 /* Footer styles */
