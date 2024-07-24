@@ -174,8 +174,9 @@ footer {
 @media (max-width: 768px) {
     body {
         background-image: url('images/screen-floral-bg.png');
-        background-attachment: scroll;
-        background-size: 100% auto;
-        background-position: top center;
+        padding: 20px;
+        width: 80%;
+        margin-left: auto;
+        margin-right:auto;
     }
 }
