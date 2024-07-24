@@ -139,74 +139,13 @@ footer {
 }
 
 /* Responsive design */
-@media (max-width: 600px) {
-    body {
-        background-attachment: scroll; /* Allow scrolling on mobile */
-        background-position: center; /* Align from the top */
-    }
 
-    h1 {
-        font-size: 2rem;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 0.5rem 0;
-    }
-}
-
-/* Countdown styles */
-#countdown {
-    text-align: center;
-    margin-bottom: 4rem;
-}
-
-#timer {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-}
-
-.time-unit {
-    background-color: #f8f8f8;
-    padding: 1rem;
-    border-radius: 5px;
-    min-width: 100px;
-}
-
-.time-unit span {
-    font-size: 2.5rem;
-    font-weight: bold;
-    display: block;
-}
-
-.time-unit p {
-    margin-top: 0.5rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-@media (max-width: 600px) {
-    #timer {
-        flex-wrap: wrap;
-    }
-    
-    .time-unit {
-        min-width: 80px;
-    }
-    
-    .time-unit span {
-        font-size: 2rem;
-    }
-}
-
-/* Existing styles... */
 
 /* Responsive design */
 @media (max-width: 768px) {
     body {
         background-attachment: scroll; /* Allows the background to scroll on mobile */
-        background-size: 100% auto; /* Makes the image width 100% of the container and auto-adjusts height */
+        background-size: auto; 
         background-position: top center; /* Aligns the background to the top center */
     }
 }
