@@ -142,9 +142,9 @@ footer {
 @media (max-width: 600px) {
     body {
         background-attachment: scroll; /* Allow scrolling on mobile */
-        background-position: top center; /* Align from the top */
+        background-position: center; /* Align from the top */
     }
-    
+
     h1 {
         font-size: 2rem;
     }
