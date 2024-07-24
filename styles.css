@@ -138,7 +138,36 @@ footer {
     color: #777;
 }
 
-/* Responsive design */
+/* Countdown styles */
+#countdown {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+#timer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.time-unit {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    border-radius: 5px;
+    min-width: 100px;
+}
+
+.time-unit span {
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: block;
+}
+
+.time-unit p {
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 
 
 /* Responsive design */
@@ -146,6 +175,5 @@ footer {
     body {
         background-attachment: scroll; /* Allows the background to scroll on mobile */
         background-size: auto; 
-        background-position: top center; /* Aligns the background to the top center */
     }
 }
