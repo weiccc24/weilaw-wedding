@@ -9,12 +9,7 @@ body {
     font-family: 'Georgia', Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #fff;
-    background-image: url('images/floral-bg.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover; /* Ensures the background image covers the entire area */
-    background-position: center; /* Centers the background image */
+    background-color: #fff5ed;
 }
 /* Header styles */
 header {
@@ -82,12 +77,13 @@ p {
     margin-top: 20px; /* Add space below the header */
 }
 
-.image-container .oval-crop {
+/* .image-container .oval-crop {
     width: 500px; /* Set a fixed width */
     height: 650px; /* Set a fixed height - adjust for desired oval shape */
     overflow: hidden;
     border-radius: 70%; /* This creates the oval shape */
 }
+*/
 
 .image-container .oval-crop img {
     width: 100%;
