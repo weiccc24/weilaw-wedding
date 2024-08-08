@@ -156,4 +156,22 @@ footer {
 
 
 /* Responsive design */
+@media only screen and (max-width: 600px) {
+    nav ul {
+        flex-direction:column; /*Stack items vertically*/
+        align-items: center; /*Center items horizontally*/
+    }
+
+    nav ul li a {
+        font-size: 12px; /*Reduce font size for mobile*/
+    }
+
+    .time-unit {
+        font-size: 12px; /*Reduce font size for mobile*/
+    }
+
+    .time-unit span {
+        font-size: 18px; /*Reduce font size for mobile*/
+    }
+}
 
