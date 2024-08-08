@@ -9,8 +9,9 @@ body {
     font-family: 'Georgia', Arial, sans-serif;
     line-height: normal;
     color: #333;
-    background-color:#fff5ed;
+    background-color: #fff5ed;
 }
+
 /* Header styles */
 header {
     padding: 2rem 0;
@@ -24,16 +25,24 @@ h1 {
 }
 
 /* Navigation styles */
+nav {
+    display: flex; /* Use Flexbox for navigation */
+    justify-content: center; /* Center items horizontally */
+}
+
 nav ul {
     list-style-type: none;
+    display: flex; /* Use Flexbox for list items */
+    justify-content: center; /* Center items */
+    padding: 0;
+    margin: 0;
 }
 
 nav ul li {
-    display:inline-block;
-    margin: 20px;
+    display: inline-block;
+    margin: 10px; /* Adjust margin for better spacing on mobile */
     border-bottom: 2px solid #000;
     padding-bottom: 5px;
-    
 }
 
 nav ul li a {
@@ -71,17 +80,14 @@ p {
 }
 
 .image-container {
-    margin:0 auto 20px auto;
+    margin: 0 auto 20px auto;
     text-align: center;
 }
 
 .image-container img {
-    width:60%;
-    height:auto;
-
+    width: 60%;
+    height: auto;
 }
-
-
 
 /* Photo gallery styles */
 .photo-gallery {
@@ -93,7 +99,6 @@ p {
 
 .photo-gallery img {
     max-width: calc(50% - 1rem); /* 50% width minus half of the gap */
-    height: auto;
     height: auto;
     object-fit: cover;
 }
@@ -154,24 +159,27 @@ footer {
     letter-spacing: 1px;
 }
 
-
 /* Responsive design */
 @media only screen and (max-width: 600px) {
     nav ul {
-        flex-direction:column; /*Stack items vertically*/
-        align-items: center; /*Center items horizontally*/
+        flex-direction: row; /* Keep items in a single line */
+        flex-wrap: wrap; /* Allow wrapping if necessary */
+        justify-content: center; /* Center items */
+    }
+
+    nav ul li {
+        margin: 5px; /* Adjust margin for smaller screens */
     }
 
     nav ul li a {
-        font-size: 12px; /*Reduce font size for mobile*/
+        font-size: 12px; /* Reduce font size for mobile */
     }
 
     .time-unit {
-        font-size: 12px; /*Reduce font size for mobile*/
+        font-size: 12px; /* Reduce font size for mobile */
     }
 
     .time-unit span {
-        font-size: 18px; /*Reduce font size for mobile*/
+        font-size: 18px; /* Reduce font size for mobile */
     }
 }
-
