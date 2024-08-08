@@ -77,6 +77,7 @@ h2 {
 
 p {
     padding-bottom: 20px;
+    text-align: center;
 }
 
 .image-container {
@@ -137,7 +138,7 @@ footer {
 #timer {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .time-unit {
@@ -148,9 +149,9 @@ footer {
 }
 
 .time-unit span {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
-    display: block;
+    display: inline-block;
 }
 
 .time-unit p {
@@ -176,7 +177,8 @@ footer {
     }
 
     .time-unit {
-        font-size: 12px; /* Reduce font size for mobile */
+        font-size: 10px; /* Reduce font size for mobile */
+        padding: 5px;
     }
 
     .time-unit span {
