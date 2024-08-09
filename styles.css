@@ -51,6 +51,7 @@ nav ul li a {
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 1px;
+    margin: auto 0.5rem;
 }
 
 nav ul li a:hover {
@@ -173,7 +174,7 @@ footer {
     }
 
     nav ul li a {
-        font-size: 12px; /* Reduce font size for mobile */
+        font-size: 14px; /* Reduce font size for mobile */
     }
 
     .time-unit {
