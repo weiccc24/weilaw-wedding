@@ -61,7 +61,7 @@ nav ul li a:hover {
 /* Main content styles */
 main {
     max-width: 800px;
-    margin: 0 1rem;
+    margin: 0 auto;
     padding-bottom: 20px;
 }
 
