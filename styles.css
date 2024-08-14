@@ -28,6 +28,7 @@ h1 {
 nav {
     display: flex; /* Use Flexbox for navigation */
     justify-content: center; /* Center items horizontally */
+    min-width: 100%;
 }
 
 nav ul {
@@ -35,7 +36,7 @@ nav ul {
     display: flex; /* Use Flexbox for list items */
     justify-content: center; /* Center items */
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 }
 
 nav ul li {
@@ -63,6 +64,7 @@ main {
     max-width: 800px;
     margin: 0 auto;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 section {
@@ -76,7 +78,7 @@ h2 {
     font-weight: 300;
 }
 
-p {
+#home p {
     padding-bottom: 20px;
     text-align: center;
 }
@@ -94,9 +96,10 @@ p {
 /* Photo gallery styles */
 .photo-gallery {
     display: flex;
-    justify-content: center;
-    gap: 1rem;
+    justify-content: space-evenly;
+    /* gap: 1rem; */
     flex-wrap: wrap;
+    /* border: 5px solid black; */
 }
 
 .photo-gallery img {
@@ -140,25 +143,27 @@ footer {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    margin: 0 2px;
 }
 
 .time-unit {
     background-color: #f8f8f8;
-    padding: 1rem;
+    padding: 5px;
     border-radius: 5px;
-    min-width: 100px;
+    /* aspect-ratio: 1/1; */
 }
 
 .time-unit span {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     display: inline-block;
+    padding-bottom:2px;
 }
 
 .time-unit p {
-    margin-top: 0.5rem;
     text-transform: uppercase;
     letter-spacing: 1px;
+    padding:2px;
 }
 
 /* Responsive design */
@@ -173,13 +178,24 @@ footer {
         margin: 5px; /* Adjust margin for smaller screens */
     }
 
+    nav ul li a {
+        font-size: 0.8rem;
+    }
 
     .time-unit {
-        font-size: 10px; /* Reduce font size for mobile */
-        padding: 5px;
+        font-size: 0.6rem; /* Reduce font size for mobile */
+        /* padding: 3px; */
     }
 
     .time-unit span {
-        font-size: 18px; /* Reduce font size for mobile */
+        font-size: 0.8rem; /* Reduce font size for mobile */
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
     }
 }
