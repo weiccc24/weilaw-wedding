@@ -147,7 +147,7 @@ footer {
 }
 
 .time-unit {
-    background-color: #f8f8f8;
+    background-color:rgba(242,239,233,0.4);
     padding: 5px;
     border-radius: 5px;
     /* aspect-ratio: 1/1; */
@@ -182,13 +182,12 @@ footer {
         font-size: 0.8rem;
     }
 
-    .time-unit {
-        font-size: 0.6rem; /* Reduce font size for mobile */
-        /* padding: 3px; */
+    .time-unit { /*text*/
+        font-size: 0.5em; /* Reduce font size for mobile */
     }
 
-    .time-unit span {
-        font-size: 0.8rem; /* Reduce font size for mobile */
+    .time-unit span { /*number*/
+        font-size: 1rem; /* Reduce font size for mobile */
     }
 
     h1 {
